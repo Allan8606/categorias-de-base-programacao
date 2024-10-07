@@ -1,0 +1,77 @@
+/* CSS DA PáGINA */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 10px;
+}
+.menu-img{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+img{
+  width: 100px;
+}
+h1{
+  font-size: 80px;
+}
+
+.menu{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.menu li{
+  font-weight: bold;
+}
+
+header a{
+  color: #820AD1;
+  font-weight: bolder;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+ul li a{
+  color: black;
+}
+li a:hover{
+  color: #820AD1;
+}
+
+.box{
+  width: 100vw;
+  border: 15px solid #820AD1;
+}
+
+.box-main{
+  height: 450px;
+  margin: auto;
+
+
+  background-image: url('./img/nubank-ultravioleta-cartao-de-credito-capa.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.box-main h2{
+  text-align: center;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 28px;
+
+}
+.box-main p{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: italic;
+}
