@@ -1,1 +1,1 @@
-# categorias-de-base-programacao
+# Aulas do programa categorias de base da programação, do Gustavo Caetano
